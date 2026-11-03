@@ -4,7 +4,7 @@ DispMini is a macOS app that turns a 2017-or-later iMac into an external display
 
 Your iMac may be stuck on an old version of macOS, but its 4K or 5K screen is still excellent. Keep the screen, and let your Mac mini do the work.
 
-**[Download](https://github.com/23900/DispMini/releases)** · **[Setup guide](docs/setup-guide.md)** · **[FAQ](docs/faq.md)** · **[Troubleshooting](docs/troubleshooting.md)** · **[Website](https://dispmini.app)** · **[❤️ Sponsor](https://buymeacoffee.com/dispmini)**
+**[Download](https://github.com/23900/DispMini/releases)** · **[Setup guide](https://dispmini.app/setup-guide)** · **[FAQ](docs/faq.md)** · **[Troubleshooting](https://dispmini.app/troubleshooting)** · **[Website](https://dispmini.app)** · **[❤️ Sponsor](https://buymeacoffee.com/dispmini)**
 
 > DispMini is in pre-release. This repository hosts documentation and downloads; the source code isn't published here.
 
@@ -35,7 +35,7 @@ The 21.5-inch iMac 4K (2017) and 27-inch iMac 5K (2017) have been tested on real
 2. Open DispMiniReceiver on the iMac and DispMiniSender on the Mac mini.
 3. Allow the permissions macOS asks for.
 
-The iMac then shows your Mac mini's desktop. See the [setup guide](docs/setup-guide.md) for details.
+The iMac then shows your Mac mini's desktop. See the [setup guide](https://dispmini.app/setup-guide) for details.
 
 ## Network & Privacy
 

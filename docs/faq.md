@@ -2,7 +2,7 @@
 
 ## Can I use my iMac as a monitor for a Mac mini?
 
-Yes. Install DispMini on both Macs and connect them with a Thunderbolt or USB4 cable. Your iMac then works as an external display for your Mac mini or MacBook. See the [setup guide](setup-guide.md).
+Yes. Install DispMini on both Macs and connect them with a Thunderbolt or USB4 cable. Your iMac then works as an external display for your Mac mini or MacBook. See the [setup guide](https://dispmini.app/setup-guide).
 
 ## Is DispMini the same as Target Display Mode?
 
@@ -44,7 +44,7 @@ Yes. Turn this on in DispMiniReceiver's settings and allow Accessibility access 
 
 ## Can I still use the iMac as a computer?
 
-Yes. The DispMini picture is on its own desktop, so you can [swipe or use a keyboard shortcut](setup-guide.md#everyday-use) to go back to the iMac's own desktop. Quit the app whenever you like.
+Yes. The DispMini picture is on its own desktop, so you can [swipe or use a keyboard shortcut](https://dispmini.app/setup-guide#everyday-use) to go back to the iMac's own desktop. Quit the app whenever you like.
 
 ## Does it play sound through the iMac?
 
@@ -52,7 +52,7 @@ Yes. Turn on **Transmit audio** in the Sender's settings.
 
 ## Does my Mac mini need its own monitor?
 
-Only for the first setup, because macOS permission prompts must be clicked by hand. A temporary monitor or remote desktop works. After that, it can start and connect without one if you [set it to start automatically](setup-guide.md#5-start-both-apps-automatically) and turn on automatic login.
+Only for the first setup, because macOS permission prompts must be clicked by hand. A temporary monitor or remote desktop works. After that, it can start and connect without one if you [set it to start automatically](https://dispmini.app/setup-guide#5-start-both-apps-automatically) and turn on automatic login.
 
 ## Is my screen content private?
 
