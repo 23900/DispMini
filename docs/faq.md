@@ -16,11 +16,11 @@ iMacs from before 2017 aren't supported.
 
 ## Which Macs can send the picture?
 
-A Mac mini or MacBook with Apple silicon, running macOS 14 or later. Intel-based Macs aren't supported as the sender.
+A Mac mini or MacBook with Apple silicon, running macOS 14 or later. Intel-based Macs aren't supported as the sender. On a Mac mini with M4 or M4 Pro, use the Thunderbolt ports on the back (the front USB-C ports aren't Thunderbolt).
 
 ## Does DispMini work with a Mac Studio?
 
-Yes. DispMini is built mainly for the Mac mini, but DispMini Sender also works on a Mac Studio with Apple silicon, running macOS 14 or later. On a Mac Studio with a Max chip, use the Thunderbolt ports on the back.
+Yes. DispMini is built mainly for the Mac mini, but DispMiniSender also works on a Mac Studio with Apple silicon, running macOS 14 or later. On a Mac Studio with a Max chip, use the Thunderbolt ports on the back.
 
 ## Do I need a cable?
 
@@ -40,7 +40,7 @@ Those are designed for occasional use and may scale or heavily compress the pict
 
 ## Can I control the Mac mini with the iMac's keyboard and mouse?
 
-Yes. Turn this on in DispMini Receiver's settings and allow Accessibility access on the Mac mini. It's off by default.
+Yes. Turn this on in DispMiniReceiver's settings and allow Accessibility access on the Mac mini. It's off by default.
 
 ## Can I still use the iMac as a computer?
 

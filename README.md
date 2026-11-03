@@ -22,17 +22,17 @@ Your iMac may be stuck on an old version of macOS, but its 4K or 5K screen is st
 
 | | Install on | Needs |
 |---|---|---|
-| **DispMini Sender** | Mac mini or MacBook with Apple silicon | macOS 14 or later |
-| **DispMini Receiver** | iMac from 2017 or later | macOS 13 or later |
+| **DispMiniSender** | Mac mini or MacBook with Apple silicon | macOS 14 or later |
+| **DispMiniReceiver** | iMac from 2017 or later | macOS 13 or later |
 
 You also need a **Thunderbolt 3/4 or USB4 data cable** between the two Macs for full performance (manual Wi-Fi connection is also supported as a fallback).
 
-The 21.5-inch iMac 4K (2017) and 27-inch iMac 5K (2017) have been tested on real hardware. DispMini is built mainly for the Mac mini, and DispMini Sender also works on a Mac Studio with Apple silicon.
+The 21.5-inch iMac 4K (2017) and 27-inch iMac 5K (2017) have been tested on real hardware. DispMini is built mainly for the Mac mini, and DispMiniSender also works on a Mac Studio with Apple silicon.
 
 ## Quick start
 
 1. Connect the two Macs with the cable.
-2. Open DispMini Receiver on the iMac and DispMini Sender on the Mac mini.
+2. Open DispMiniReceiver on the iMac and DispMiniSender on the Mac mini.
 3. Allow the permissions macOS asks for.
 
 The iMac then shows your Mac mini's desktop. See the [setup guide](docs/setup-guide.md) for details.

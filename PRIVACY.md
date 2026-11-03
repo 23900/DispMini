@@ -2,7 +2,7 @@
 
 Last updated: November 3, 2026
 
-This policy covers DispMini Sender, DispMini Receiver, and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
+This policy covers DispMiniSender, DispMiniReceiver, and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
 
 ## Summary
 
@@ -22,7 +22,7 @@ DispMini is designed for a direct Thunderbolt or USB4 cable between your two Mac
 
 ## Update checks
 
-After connecting, DispMini Sender checks for updates at most once a day. You can also check by hand in its settings. DispMini Receiver doesn't contact the server.
+After connecting, DispMiniSender checks for updates at most once a day. You can also check by hand in its settings. DispMiniReceiver doesn't contact the server.
 
 Each check sends:
 

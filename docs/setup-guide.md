@@ -20,23 +20,23 @@ Plug the cable directly into a Thunderbolt or USB4 port on both Macs. On a Mac m
 
 Download both apps from [Releases](https://github.com/23900/DispMini/releases), then move each one to the Applications folder:
 
-- **DispMini Sender** goes on the Mac mini or MacBook.
-- **DispMini Receiver** goes on the iMac.
+- **DispMiniSender** goes on the Mac mini or MacBook.
+- **DispMiniReceiver** goes on the iMac.
 
 If macOS says it can't verify the developer, go to **System Settings → Privacy & Security** and click **Open Anyway**.
 
 ## 3. Set up the iMac
 
-Open DispMini Receiver. On macOS 15 or later, allow **Local Network** access when asked. It then waits for a connection.
+Open DispMiniReceiver. On macOS 15 or later, allow **Local Network** access when asked. It then waits for a connection.
 
 ## 4. Set up the Mac mini
 
-Open DispMini Sender. It runs in the menu bar, so no window or Dock icon appears. Allow these permissions:
+Open DispMiniSender. It runs in the menu bar, so no window or Dock icon appears. Allow these permissions:
 
 - **Local Network** lets it find the iMac. macOS only asks for this on macOS 15 or later.
 - **Screen Recording** lets it send the picture. Newer versions of macOS call this **Screen & System Audio Recording**.
 
-If nothing happens after you allow Screen Recording, quit DispMini Sender and open it again.
+If nothing happens after you allow Screen Recording, quit DispMiniSender and open it again.
 
 The Sender finds the iMac and connects, and the iMac switches to fullscreen showing your Mac mini's desktop.
 
@@ -44,10 +44,10 @@ The Sender finds the iMac and connects, and the iMac switches to fullscreen show
 
 Neither app starts automatically until you set this up:
 
-- **On the Mac mini:** turn on **Launch at login** in DispMini Sender's settings.
-- **On the iMac:** DispMini Receiver has no setting for this. Go to **System Settings → General → Login Items** (**Login Items & Extensions** on macOS 15 or later), click **+** under **Open at Login**, and choose **DispMiniReceiver**.
+- **On the Mac mini:** turn on **Launch at login** in DispMiniSender's settings.
+- **On the iMac:** DispMiniReceiver has no setting for this. Go to **System Settings → General → Login Items** (**Login Items & Extensions** on macOS 15 or later), click **+** under **Open at Login**, and choose **DispMiniReceiver**.
 
-Apps only start after you log in. If your Mac mini has no screen, turn on automatic login in **System Settings → Users & Groups**, which lets anyone with physical access use that Mac. Automatic login isn't available while FileVault is on, and a Mac with FileVault on must be unlocked after each restart.
+Apps only start after you log in. If your Mac mini has no screen, turn on automatic login in **System Settings → Users & Groups**, which lets anyone with physical access use that Mac. Automatic login isn't available while FileVault is on, and a Mac with FileVault on must be unlocked with a directly connected keyboard after each restart (remote desktop and DispMini cannot run before FileVault unlock).
 
 ## Everyday use
 
@@ -63,7 +63,7 @@ Once both apps start automatically, turn on both Macs and they reconnect by them
 
 Keyboard and mouse sharing is off by default.
 
-1. On the iMac, turn on **Allow controlling the other Mac with this Mac's mouse and keyboard** in DispMini Receiver's settings.
+1. On the iMac, turn on **Allow controlling the other Mac with this Mac's mouse and keyboard** in DispMiniReceiver's settings.
 2. On the Mac mini, allow **Accessibility** access when asked.
 
 Input is only sent while the DispMini picture is fullscreen and on screen. Swipe to another desktop and your keyboard and mouse control the iMac again.
@@ -82,7 +82,7 @@ Click the DispMini icon in the Mac mini's menu bar. The dot next to each device 
 
 ### Optional: turn the dot green
 
-On **both** Macs:
+With the cable plugged in, on **both** Macs:
 
 1. Go to **System Settings → Network → Thunderbolt Bridge → Details → Hardware**.
 2. Set **Configure** to **Manually** and **MTU** to **Jumbo (9000)**.

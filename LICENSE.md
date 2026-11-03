@@ -4,7 +4,7 @@ Last updated: November 3, 2026
 
 Copyright © 2026 James (GitHub: @23900). All rights reserved.
 
-This agreement applies to DispMini Sender, DispMini Receiver, and their updates (the "Software"). By installing or using the Software, you agree to these terms. If you don't agree, don't install or use it.
+This agreement applies to DispMiniSender, DispMiniReceiver, and their updates (the "Software"). By installing or using the Software, you agree to these terms. If you don't agree, don't install or use it.
 
 ## 1. Free use
 

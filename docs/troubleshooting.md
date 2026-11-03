@@ -9,7 +9,7 @@ Go to **System Settings → Privacy & Security** and click **Open Anyway**. You 
 ## The Mac mini can't find the iMac
 
 1. Check that the cable is plugged in at both ends and is a Thunderbolt or USB4 data cable, not a charging cable.
-2. Open DispMini Receiver on the iMac and check that it's listening.
+2. Open DispMiniReceiver on the iMac and check that it's listening.
 3. On any Mac running macOS 15 or later, go to **System Settings → Privacy & Security → Local Network** and check that the DispMini app is allowed. Earlier versions of macOS don't have this setting.
 4. Click the iMac in the Sender's menu bar panel to connect by hand.
 
@@ -19,7 +19,7 @@ This is the default. DispMini connects automatically only when a cable is plugge
 
 ## It's connected, but there's no picture
 
-1. Check that **Screen Recording** (**Screen & System Audio Recording** on newer versions of macOS) is allowed on the Mac mini, then quit and reopen DispMini Sender.
+1. Check that **Screen Recording** (**Screen & System Audio Recording** on newer versions of macOS) is allowed on the Mac mini, then quit and reopen DispMiniSender.
 2. Disconnect and reconnect from the Sender's menu bar panel.
 
 ## The picture stutters or shows artifacts
@@ -31,19 +31,19 @@ This is the default. DispMini connects automatically only when a cable is plugge
 
 ## There's no sound
 
-Check that **Transmit audio** is on in the Sender's settings and that the iMac isn't muted.
+Check that **Transmit audio** is on in the Sender's settings and that the iMac isn't muted. If sound still doesn't play, quit and reopen DispMiniSender, or check that **Screen & System Audio Recording** permission is enabled on the Mac mini.
 
 ## The keyboard and mouse don't control the Mac mini
 
-1. Check that **Allow controlling the other Mac with this Mac's mouse and keyboard** is on in DispMini Receiver's settings.
-2. Check that DispMini Sender is allowed under **System Settings → Privacy & Security → Accessibility** on the Mac mini.
+1. Check that **Allow controlling the other Mac with this Mac's mouse and keyboard** is on in DispMiniReceiver's settings.
+2. Check that DispMiniSender is allowed under **System Settings → Privacy & Security → Accessibility** on the Mac mini.
 3. Make sure the DispMini picture is fullscreen and on screen.
 
 ## I can't exit fullscreen
 
 - Press **Ctrl+Option+Esc**. Esc on its own doesn't exit fullscreen.
 - If you aren't sharing the keyboard and mouse, you can also press **Ctrl+Cmd+F**.
-- If neither works, [switch to the iMac's own desktop](setup-guide.md#everyday-use) and quit DispMini Receiver from there.
+- If neither works, [switch to the iMac's own desktop](setup-guide.md#everyday-use) and quit DispMiniReceiver from there.
 
 ## It doesn't start or reconnect after a restart
 
@@ -51,11 +51,11 @@ Check that both apps are [set to start automatically](setup-guide.md#5-start-bot
 
 ## The iMac screen is black
 
-The display has probably gone to sleep, so move the mouse or press a key. If that doesn't help, quit DispMini Receiver and open it again.
+The display has probably gone to sleep, so move the mouse or press a key. If that doesn't help, quit DispMiniReceiver and open it again.
 
 ## The picture freezes when the Mac mini sleeps
 
-This is expected, because a sleeping Mac stops producing a picture. It comes back when the Mac mini wakes. To avoid seeing a frozen picture, turn on **Automatically exit fullscreen when the sender's Mac sleeps** in DispMini Receiver's settings.
+This is expected, because a sleeping Mac stops producing a picture. It comes back when the Mac mini wakes. To avoid seeing a frozen picture, turn on **Automatically exit fullscreen when the sender's Mac sleeps** in DispMiniReceiver's settings.
 
 ## Still stuck?
 
