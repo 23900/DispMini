@@ -4,7 +4,7 @@ DispMini is a macOS app that turns a 2017-or-later iMac into an external display
 
 Your iMac may be stuck on an old version of macOS, but its 4K or 5K screen is still excellent. Keep the screen, and let your Mac mini do the work.
 
-**[Download](https://github.com/23900/DispMini/releases)** · **[Setup guide](docs/setup-guide.md)** · **[FAQ](docs/faq.md)** · **[Troubleshooting](docs/troubleshooting.md)** · **[Website](https://dispmini.app)**
+**[Download](https://github.com/23900/DispMini/releases)** · **[Setup guide](docs/setup-guide.md)** · **[FAQ](docs/faq.md)** · **[Troubleshooting](docs/troubleshooting.md)** · **[Website](https://dispmini.app)** · **[❤️ Sponsor](https://buymeacoffee.com/dispmini)**
 
 > DispMini is in pre-release. This repository hosts documentation and downloads; the source code isn't published here.
 
@@ -45,9 +45,11 @@ To maximize streaming performance and eliminate latency, DispMini does not add a
 
 Update checks send basic device info and anonymous region metadata to verify latest versions. See the [Privacy Policy](PRIVACY.md).
 
-## License
+## Support & License
 
-DispMini is free for individuals (including freelancers), schools, non-profits, and government bodies. Companies and other businesses need a separate agreement: email support@dispmini.app. It isn't open source. See the [license agreement](LICENSE.md).
+DispMini is free for individuals (including freelancers), schools, non-profits, and government bodies, with no ads or subscriptions. If it gave your 4K or 5K iMac a second life and saved you the cost of a new monitor, consider **[buying me a coffee](https://buymeacoffee.com/dispmini)** to help cover Apple Developer membership costs and ongoing macOS compatibility.
+
+Companies and other businesses need a separate agreement: email support@dispmini.app. It isn't open source—see the [license agreement](LICENSE.md).
 
 ---
 

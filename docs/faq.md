@@ -65,7 +65,7 @@ See the [Privacy Policy](../PRIVACY.md) for details on update checks.
 
 ## How much does DispMini cost?
 
-It's free for individuals (including freelancers), schools, non-profits, and government bodies, and sustained by voluntary sponsorship. Companies and other businesses need a separate agreement.
+It's free for individuals (including freelancers), schools, non-profits, and government bodies, and sustained by [voluntary sponsorship](https://buymeacoffee.com/dispmini). Companies and other businesses need a separate agreement.
 
 ## Can my school, non-profit, or company use DispMini?
 
