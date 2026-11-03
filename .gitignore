@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE directories
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# Build artifacts & packages (hosted on GitHub Releases, not in repository)
+build/
+DerivedData/
+*.dmg
+*.zip
+*.pkg
