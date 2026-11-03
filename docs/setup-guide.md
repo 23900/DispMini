@@ -57,7 +57,6 @@ Once both apps start automatically, turn on both Macs and they reconnect by them
 |---|---|
 | Switch to the iMac's own desktop | On a trackpad, swipe left or right with four fingers. On a Magic Mouse, swipe left or right with two fingers. On a keyboard, press **Ctrl+←** or **Ctrl+→** |
 | Exit fullscreen | Press **Ctrl+Option+Esc** |
-| Exit fullscreen when you aren't sharing the keyboard and mouse | Press **Ctrl+Option+Esc** or **Ctrl+Cmd+F** |
 
 ## Use the iMac's keyboard and mouse
 

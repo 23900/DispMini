@@ -42,8 +42,7 @@ Check that **Transmit audio** is on in the Sender's settings and that the iMac i
 ## I can't exit fullscreen
 
 - Press **Ctrl+Option+Esc**. Esc on its own doesn't exit fullscreen.
-- If you aren't sharing the keyboard and mouse, you can also press **Ctrl+Cmd+F**.
-- If neither works, [switch to the iMac's own desktop](setup-guide.md#everyday-use) and quit DispMiniReceiver from there.
+- If that doesn't work, [switch to the iMac's own desktop](setup-guide.md#everyday-use) and quit DispMiniReceiver from there.
 
 ## It doesn't start or reconnect after a restart
 
