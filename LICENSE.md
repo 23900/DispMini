@@ -4,14 +4,14 @@ Last updated: November 3, 2026
 
 Copyright © 2026 James (GitHub: @23900). All rights reserved.
 
-This agreement applies to DispMini Sender, DispMini Receiver and their updates (the "Software"). By installing or using the Software, you agree to these terms. If you don't agree, don't install or use it.
+This agreement applies to DispMini Sender, DispMini Receiver, and their updates (the "Software"). By installing or using the Software, you agree to these terms. If you don't agree, don't install or use it.
 
 ## 1. Free use
 
-You may download, install and use the Software free of charge on Macs you own or are authorized to use if you're:
+You may download, install, and use the Software free of charge on Macs you own or are authorized to use if you're:
 
-- An individual using it for yourself, including for study, hobbies and your own work as a freelancer or sole trader.
-- A school, university or other educational institution.
+- An individual using it for yourself, including for study, hobbies, and your own work as a freelancer or sole trader.
+- A school, university, or other educational institution.
 - A non-profit organization or government body.
 
 This license is non-exclusive and non-transferable. Sponsorship is optional and doesn't change your rights under this agreement.
@@ -24,10 +24,10 @@ This agreement doesn't license use by or on behalf of a company or other busines
 
 You may not:
 
-- Sell, rent, lease or sublicense the Software.
+- Sell, rent, lease, or sublicense the Software.
 - Redistribute the Software, including by mirroring it or bundling it with other products. You're welcome to share a link to the [official releases](https://github.com/23900/DispMini/releases). Package managers such as Homebrew may download unmodified copies directly from the official releases.
-- Modify the Software, bypass its protections or remove its copyright notices.
-- Reverse engineer, decompile or disassemble the Software, except where the law gives you a right to do so that can't be excluded.
+- Modify the Software, bypass its protections, or remove its copyright notices.
+- Reverse engineer, decompile, or disassemble the Software, except where the law gives you a right to do so that can't be excluded.
 - Use the Software in violation of any law or to view or control a Mac without authorization.
 
 ## 4. Ownership
@@ -46,13 +46,13 @@ The [Privacy Policy](PRIVACY.md) explains what data the Software sends and store
 
 ## 7. No warranty
 
-TO THE EXTENT THE LAW ALLOWS, THE SOFTWARE IS PROVIDED FREE OF CHARGE, "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR COMPATIBILITY.
+TO THE EXTENT THE LAW ALLOWS, THE SOFTWARE IS PROVIDED FREE OF CHARGE, "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR COMPATIBILITY.
 
 The Software may contain errors, may not work with every Mac or macOS version, and may be changed or discontinued at any time. Support and updates aren't guaranteed.
 
 ## 8. No liability
 
-TO THE EXTENT THE LAW ALLOWS, THE COPYRIGHT HOLDER ISN'T LIABLE FOR ANY LOSS OR DAMAGE ARISING FROM THE SOFTWARE OR YOUR USE OF IT. THIS INCLUDES DIRECT, INDIRECT AND CONSEQUENTIAL LOSS, LOSS OF DATA, PROFITS OR BUSINESS, SYSTEM ERRORS, CRASHES, DISPLAY PROBLEMS AND DEVICE INOPERABILITY.
+TO THE EXTENT THE LAW ALLOWS, THE COPYRIGHT HOLDER ISN'T LIABLE FOR ANY LOSS OR DAMAGE ARISING FROM THE SOFTWARE OR YOUR USE OF IT. THIS INCLUDES DIRECT, INDIRECT, AND CONSEQUENTIAL LOSS, LOSS OF DATA, PROFITS, OR BUSINESS, SYSTEM ERRORS, CRASHES, DISPLAY PROBLEMS, AND DEVICE INOPERABILITY.
 
 ## 9. Your legal rights
 
@@ -78,7 +78,7 @@ The documentation in this repository is copyright of the copyright holder, and a
 
 ## 14. Trademarks
 
-DispMini is an independent project and isn't affiliated with or endorsed by Apple Inc. Apple, Mac, iMac, Mac mini and MacBook are trademarks of Apple Inc.
+DispMini is an independent project and isn't affiliated with or endorsed by Apple Inc. Apple, Mac, iMac, Mac mini, Mac Studio, and MacBook are trademarks of Apple Inc.
 
 ## 15. Contact
 

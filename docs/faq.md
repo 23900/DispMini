@@ -32,7 +32,7 @@ It can connect, but DispMini isn't designed for Wi-Fi. By default, it only conne
 
 ## Is there any lag?
 
-With a cable, everyday work such as typing, coding, browsing and video calls keeps up well. It isn't recommended for professional color grading, and results over Wi-Fi vary.
+With a cable, everyday work such as typing, coding, browsing, and video calls keeps up well. It isn't recommended for professional color grading, and results over Wi-Fi vary.
 
 ## How is it different from AirPlay or Screen Sharing?
 
@@ -56,7 +56,7 @@ Only for the first setup, because macOS permission prompts must be clicked by ha
 
 ## Is my screen content private?
 
-All video, audio and input data streams directly between your two Macs over the local link and is never uploaded or relayed to any server. To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream:
+All video, audio, and input data streams directly between your two Macs over the local link and is never uploaded or relayed to any server. To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream:
 
 - **Direct Cable (Thunderbolt/USB4):** Physically isolated point-to-point link between your two Macs, with zero exposure to the rest of the network.
 - **Wi-Fi:** Relies on your router's link-layer wireless encryption (WPA2/WPA3). Because DispMini does not add a second encryption layer, use a trusted private home/office network and avoid running it on shared or public Wi-Fi (such as cafes or open guest networks).
@@ -65,11 +65,11 @@ See the [Privacy Policy](../PRIVACY.md) for details on update checks.
 
 ## How much does DispMini cost?
 
-It's free for individuals (including freelancers), schools, non-profits and government bodies, and sustained by voluntary sponsorship. Companies and other businesses need a separate agreement.
+It's free for individuals (including freelancers), schools, non-profits, and government bodies, and sustained by voluntary sponsorship. Companies and other businesses need a separate agreement.
 
-## Can my school, non-profit or company use DispMini?
+## Can my school, non-profit, or company use DispMini?
 
-Schools, non-profits and government bodies can use it for free, and so can freelancers working for themselves. Companies and other businesses need a separate agreement: email support@dispmini.app. See the [license agreement](../LICENSE.md).
+Schools, non-profits, and government bodies can use it for free, and so can freelancers working for themselves. Companies and other businesses need a separate agreement: email support@dispmini.app. See the [license agreement](../LICENSE.md).
 
 ## Is DispMini open source?
 

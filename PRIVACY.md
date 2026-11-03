@@ -2,13 +2,13 @@
 
 Last updated: November 3, 2026
 
-This policy covers DispMini Sender, DispMini Receiver and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
+This policy covers DispMini Sender, DispMini Receiver, and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
 
 ## Summary
 
-- Your picture, audio, keyboard and mouse input aren't sent to any DispMini server.
-- The only data sent to a DispMini server comes from update checks: app version, macOS version, Mac model and language.
-- We also store the approximate location (country, region and city) that Cloudflare derives from your IP address.
+- Your picture, audio, keyboard, and mouse input aren't sent to any DispMini server.
+- The only data sent to a DispMini server comes from update checks: app version, macOS version, Mac model, and language.
+- We also store the approximate location (country, region, and city) that Cloudflare derives from your IP address.
 - We don't store your IP address, and we don't sell your data.
 - To maximize performance and eliminate latency on a direct cable link, DispMini does not add application-level encryption to the stream. Over Wi-Fi, it relies on your network's encryption (WPA2/WPA3), so use a direct cable or a trusted private network.
 
@@ -16,7 +16,7 @@ This policy covers DispMini Sender, DispMini Receiver and the DispMini website. 
 
 DispMini sends the picture and audio directly from the Sender to the Receiver. If you turn on keyboard and mouse sharing, your input goes from the Receiver to the Sender.
 
-The Receiver also shares its Mac model, app version, macOS version and language with the Sender. It announces these on your local network so the Sender can find it.
+The Receiver also shares its Mac model, app version, macOS version, and language with the Sender. It announces these on your local network so the Sender can find it.
 
 DispMini is designed for a direct Thunderbolt or USB4 cable between your two Macs. To maximize streaming performance and eliminate latency on that point-to-point link, DispMini does not add application-level encryption or authentication to the stream. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. While Wi-Fi provides link-layer encryption (such as WPA2/WPA3), others on the same local network may be able to see or interfere with the stream, including shared keyboard input. We recommend using a direct cable or a trusted private network rather than public or shared Wi-Fi.
 
@@ -33,9 +33,9 @@ Each check sends:
 | Mac model | Sender and Receiver |
 | Language | Sender and Receiver |
 
-We use this data to choose which update information to show you, plan compatibility work and count usage.
+We use this data to choose which update information to show you, plan compatibility work, and count usage.
 
-We store these details with each check, along with the date and time, except the Receiver's language. Cloudflare also tells us the approximate location it derives from your IP address (country, region and city), and we store that too. We don't store the IP address itself or add any identifier for you or your Mac.
+We store these details with each check, along with the date and time, except the Receiver's language. Cloudflare also tells us the approximate location it derives from your IP address (country, region, and city), and we store that too. We don't store the IP address itself or add any identifier for you or your Mac.
 
 To stop automatic checks, turn them off in the Sender's settings.
 
