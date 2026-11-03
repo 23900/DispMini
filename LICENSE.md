@@ -38,7 +38,7 @@ The Software is licensed, not sold. The copyright holder keeps all rights not ex
 
 The Software asks for macOS permissions such as Screen Recording and, on macOS 15 or later, Local Network. If you turn on keyboard and mouse sharing, it also asks for Accessibility. You're responsible for how you use these features and for making sure you're allowed to use them on the Macs involved.
 
-DispMini is designed for a direct Thunderbolt or USB4 cable between your two Macs. Because that link stays between the two Macs, the connection isn't encrypted or authenticated. Wi-Fi and other networks aren't what DispMini is designed for. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. If you do, others on the network may be able to see or interfere with the connection, and you use it at your own risk.
+DispMini is designed for a direct Thunderbolt or USB4 cable between your two Macs. To maximize performance and eliminate latency on that point-to-point link, DispMini does not add application-level encryption or authentication to the stream. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. While your Wi-Fi network may provide link-layer encryption (such as WPA2/WPA3), others on the same network may be able to see or interfere with the connection, and you use it at your own risk.
 
 ## 6. Privacy
 

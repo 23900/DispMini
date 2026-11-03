@@ -36,9 +36,13 @@ The 21.5-inch iMac 4K (2017) and 27-inch iMac 5K (2017) have been tested on real
 
 The iMac then shows your Mac mini's desktop. See the [setup guide](docs/setup-guide.md) for details.
 
-## Privacy
+## Network & Privacy
 
-The picture is never uploaded. DispMini is designed for a direct cable between your Macs, so the connection isn't encrypted; Wi-Fi and other networks aren't what it's designed for. Update checks send limited device information, and we store the approximate location (country, region and city) that Cloudflare derives from your IP address. See the [Privacy Policy](PRIVACY.md).
+All video, audio and input data streams directly between your Macs over the local connection—nothing is sent to external servers or the cloud.
+
+To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream. While your Wi-Fi network itself provides link-layer encryption (such as WPA2/WPA3), we recommend using a direct Thunderbolt/USB4 cable or a trusted private home/office network rather than public Wi-Fi.
+
+Update checks send limited device information, and we store the approximate location (country, region and city) that Cloudflare derives from your IP address. See the [Privacy Policy](PRIVACY.md).
 
 ## License
 

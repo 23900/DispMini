@@ -28,7 +28,7 @@ Yes. DispMini is designed for a Thunderbolt 3 or later, or USB4 data cable. Send
 
 ## Does DispMini work over Wi-Fi?
 
-It can connect, but DispMini isn't designed for Wi-Fi. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. Picture quality and responsiveness then depend on your network, and the connection isn't encrypted.
+It can connect, but DispMini isn't designed for Wi-Fi. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. Picture quality and responsiveness then depend on your network; use a trusted private network rather than public Wi-Fi.
 
 ## Is there any lag?
 
@@ -56,7 +56,12 @@ Only for the first setup, because macOS permission prompts must be clicked by ha
 
 ## Is my screen content private?
 
-The picture goes directly between your two Macs and is never uploaded or relayed. DispMini is designed for a direct cable, which keeps the connection between the two Macs, so the connection isn't encrypted. Wi-Fi and other networks aren't what it's designed for, and others on those networks may be able to see or interfere with it. If you also share the keyboard and mouse, they may be able to see what you type, including passwords. See the [Privacy Policy](../PRIVACY.md).
+All video, audio and input data streams directly between your two Macs over the local link and is never uploaded or relayed to any server. To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream:
+
+- **Direct Cable (Thunderbolt/USB4):** Physically isolated point-to-point link between your two Macs, with zero exposure to the rest of the network.
+- **Wi-Fi:** Relies on your router's link-layer wireless encryption (WPA2/WPA3). Because DispMini does not add a second encryption layer, use a trusted private home/office network and avoid running it on shared or public Wi-Fi (such as cafes or open guest networks).
+
+See the [Privacy Policy](../PRIVACY.md) for details on update checks.
 
 ## How much does DispMini cost?
 

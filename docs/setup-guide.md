@@ -94,7 +94,7 @@ To undo this, set **Configure** back to **Automatically**.
 
 By default, DispMini connects automatically when a cable is plugged in, and not otherwise. Without a cable, click the iMac in the Sender's menu bar panel to connect by hand. Put both Macs on the same 5 GHz network.
 
-DispMini is designed for a direct cable, so the connection isn't encrypted. If you use Wi-Fi, others on the network may be able to see or interfere with it. If you also share the keyboard and mouse, they may be able to see what you type, including passwords.
+To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream. While your Wi-Fi router provides link-layer encryption (WPA2/WPA3), others on the same network may be able to see or interfere with the stream—including keyboard input if keyboard and mouse sharing is on. Only use Wi-Fi on a trusted private home or office network, never on public or shared guest Wi-Fi.
 
 If you only use Wi-Fi, set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings, then check the receivers that should connect over Wi-Fi.
 
