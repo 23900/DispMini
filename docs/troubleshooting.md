@@ -13,5 +13,6 @@ It covers connection, picture, sound, keyboard and mouse, and restart problems. 
 - [The keyboard and mouse don't control the Mac mini](https://dispmini.app/troubleshooting#the-keyboard-and-mouse-dont-control-the-mac-mini)
 - [I can't exit fullscreen](https://dispmini.app/troubleshooting#i-cant-exit-fullscreen)
 - [It doesn't start or reconnect after a restart](https://dispmini.app/troubleshooting#it-doesnt-start-or-reconnect-after-a-restart)
+- [Log in to a Mac mini with no monitor after a restart](https://dispmini.app/login-after-restart)
 
 Still stuck? [Open an issue](https://github.com/23900/DispMini/issues) with [these details](https://dispmini.app/troubleshooting#still-stuck).

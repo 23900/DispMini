@@ -9,6 +9,7 @@ It shows how to connect an iMac to an Apple silicon Mac mini or MacBook with a T
 - [What you need](https://dispmini.app/setup-guide#what-you-need)
 - [Install the apps](https://dispmini.app/setup-guide#2-install-the-apps)
 - [Start both apps automatically](https://dispmini.app/setup-guide#5-start-both-apps-automatically)
+- [Log in after a restart](https://dispmini.app/login-after-restart)
 - [Everyday use](https://dispmini.app/setup-guide#everyday-use)
 - [Use the iMac's keyboard and mouse](https://dispmini.app/setup-guide#use-the-imacs-keyboard-and-mouse)
 - [Check your connection](https://dispmini.app/setup-guide#check-your-connection)
