@@ -6,7 +6,7 @@ Your iMac may be stuck on an old version of macOS, but its 4K or 5K screen is st
 
 **[Download](https://github.com/23900/DispMini/releases)** · **[Setup guide](https://dispmini.app/setup-guide)** · **[FAQ](docs/faq.md)** · **[Troubleshooting](https://dispmini.app/troubleshooting)** · **[Website](https://dispmini.app)** · **[❤️ Sponsor](https://buymeacoffee.com/dispmini)**
 
-> DispMini is in pre-release. This repository hosts documentation and downloads; the source code isn't published here.
+> This repository hosts documentation and downloads; the source code isn't published here.
 
 ## Why DispMini
 
