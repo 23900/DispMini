@@ -1,6 +1,6 @@
 # DispMini Privacy Policy
 
-Last updated: November 3, 2026
+Last updated: November 5, 2026
 
 This policy covers DispMiniSender, DispMiniReceiver, and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
 
@@ -22,7 +22,7 @@ DispMini is designed for a direct Thunderbolt or USB4 cable between your two Mac
 
 ## Update checks
 
-After connecting, DispMiniSender checks for updates at most once a day. You can also check by hand in its settings. DispMiniReceiver doesn't contact the server.
+After connecting, DispMiniSender checks for updates at most once a day. You can also check by hand in its settings.
 
 Each check sends:
 
@@ -38,6 +38,8 @@ We use this data to choose which update information to show you, plan compatibil
 We store these details with each check, along with the date and time, except the Receiver's language. Cloudflare also tells us the approximate location it derives from your IP address (country, region, and city), and we store that too. We don't store the IP address itself or add any identifier for you or your Mac.
 
 To stop automatic checks, turn them off in the Sender's settings.
+
+DispMiniReceiver also checks for updates on its own when it opens and at most once a day after that. You can also check by hand in its settings. These checks send only the Receiver's app version, including whether it's a release candidate or a development build, and we don't store them. To stop them, turn them off in the Receiver's settings.
 
 ## How long we keep data
 
