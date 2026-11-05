@@ -52,7 +52,7 @@ Yes. Turn on **Transmit audio** in the Sender's settings.
 
 ## Does my Mac mini need its own monitor?
 
-Only for the first setup, because macOS permission prompts must be clicked by hand. A temporary monitor or remote desktop works. After that, it can start and connect without one if you [set it to start automatically](https://dispmini.app/setup-guide#5-start-both-apps-automatically) and turn on automatic login.
+Only for the first setup: connect one temporarily to allow the macOS permission prompts and turn on Screen Sharing. After that you can disconnect it, with no HDMI dummy plug, once you've [set both apps to start automatically](https://dispmini.app/setup-guide#5-start-both-apps-automatically). After a restart, [log in from the iMac with Screen Sharing](https://dispmini.app/setup-guide#logging-in-after-a-restart).
 
 ## Is my screen content private?
 
