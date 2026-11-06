@@ -52,7 +52,7 @@ Yes. Turn on **Transmit audio** in the Sender's settings.
 
 ## Does my Mac mini need its own monitor?
 
-Only for the first setup: connect one temporarily to allow the macOS permission prompts and turn on Screen Sharing. After that you can disconnect it, with no HDMI dummy plug, once you've [set both apps to start automatically](https://dispmini.app/setup-guide#5-start-both-apps-automatically). After a restart, [log in from the iMac with Screen Sharing](https://dispmini.app/login-after-restart). This needs FileVault turned off on the Mac mini.
+Only for the first setup: connect one temporarily to allow the macOS permission prompts and turn on Screen Sharing. After that you can disconnect it, with no HDMI dummy plug, once you've [set both apps to start automatically](https://dispmini.app/setup-guide#5-start-both-apps-automatically). After a restart, [log in from the iMac with Screen Sharing](https://dispmini.app/login-after-restart). If FileVault is on, you first [unlock its disk from the iMac over the Thunderbolt cable](https://dispmini.app/login-after-restart#if-filevault-is-on).
 
 ## Is my screen content private?
 
