@@ -27,7 +27,7 @@
 > ⭐ **Put that screen back to work!** A perfectly good 4K or 5K Retina panel sitting idle is a waste worth fixing. If DispMini saves your iMac from retirement, please **[give this repo a Star ⭐](https://github.com/23900/DispMini)** so more Mac owners can find it!
 
 <p align="center">
-  <img src="assets/screenshots/receiver-connected-5k.png" width="880" alt="DispMiniReceiver streaming native 5120x2880 5K hardware-decoded video on a 27-inch iMac 5K" />
+  <img src="assets/screenshots/receiver-connected-5k.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMiniReceiver streaming native 5120x2880 5K hardware-decoded video on a 27-inch iMac 5K" />
   <br />
   <sub><b>DispMiniReceiver on a 27" iMac 5K (2017):</b> Generating a pixel-accurate <code>5120×2880</code> picture with hardware decoding over Thunderbolt (enters fullscreen automatically once the picture arrives).</sub>
 </p>
@@ -61,7 +61,7 @@
 **DispMiniSender** lives quietly in the menu bar. Each paired receiver shows a live connection dot — **green** means it's on the Thunderbolt cable and fully tuned (`Aim for green`), **yellow** means on the cable, and **red** means over Wi-Fi.
 
 <p align="center">
-  <img src="assets/screenshots/sender-settings.png" width="840" alt="DispMiniSender menu bar popover and settings window on macOS" />
+  <img src="assets/screenshots/sender-settings.webp" width="840" style="max-width: 100%; height: auto;" alt="DispMiniSender menu bar popover and settings window on macOS" />
 </p>
 
 ### 2. Receiver Settings & Headless Reboot Recovery (iMac)
@@ -69,7 +69,7 @@
 **DispMiniReceiver** listens automatically on launch, exits and re-enters fullscreen when your sender Mac sleeps or wakes, forwards your iMac's mouse and keyboard, and provides one-click actions to unlock a FileVault disk or open Screen Sharing login after your Mac mini restarts.
 
 <p align="center">
-  <img src="assets/screenshots/receiver-settings.png" width="880" alt="DispMiniReceiver waiting screen with FileVault unlock and settings panel on iMac" />
+  <img src="assets/screenshots/receiver-settings.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMiniReceiver waiting screen with FileVault unlock and settings panel on iMac" />
 </p>
 
 ## Requirements
