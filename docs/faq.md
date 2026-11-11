@@ -56,10 +56,10 @@ Only for the first setup: connect one temporarily to allow the macOS permission 
 
 ## Is my screen content private?
 
-All video, audio, and input data streams directly between your two Macs over the local link and is never uploaded or relayed to any server. To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream:
+All video, audio, and input data streams directly between your two Macs over the local link and is never uploaded or relayed to any server. The two Macs pair once, and keyboard and mouse input then goes over an encrypted connection. To keep latency low, the picture and sound aren't encrypted:
 
 - **Direct Cable (Thunderbolt/USB4):** Physically isolated point-to-point link between your two Macs, with zero exposure to the rest of the network.
-- **Wi-Fi:** Relies on your router's link-layer wireless encryption (WPA2/WPA3). Because DispMini does not add a second encryption layer, use a trusted private home/office network and avoid running it on shared or public Wi-Fi (such as cafes or open guest networks).
+- **Wi-Fi:** Relies on your router's link-layer wireless encryption (WPA2/WPA3). Others on the same network may be able to see the stream, so use a trusted private home/office network and avoid running it on shared or public Wi-Fi (such as cafes or open guest networks).
 
 See the [Privacy Policy](../PRIVACY.md) for details on update checks.
 

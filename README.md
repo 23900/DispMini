@@ -101,7 +101,7 @@ The **21.5" iMac 4K (2017)** and **27" iMac 5K (2017)** are tested on real hardw
 
 All video, audio, and input data streams directly peer-to-peer between your two Macs over the local link—nothing is uploaded or relayed through any server.
 
-To maximize streaming performance and eliminate latency, DispMini does not add application-level encryption on top of the stream. Use the direct Thunderbolt/USB4 cable it is built for, or a trusted private home/office network—not public or shared Wi-Fi.
+The two Macs pair once, and keyboard and mouse input then goes over an encrypted connection. To keep latency low, the picture and sound aren't encrypted, so use the direct Thunderbolt/USB4 cable it is built for, or a trusted private home/office network—not public or shared Wi-Fi.
 
 Update checks send basic device info and anonymous region metadata to verify latest versions. See the [Privacy Policy](PRIVACY.md).
 

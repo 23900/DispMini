@@ -1,6 +1,6 @@
 # DispMini Privacy Policy
 
-Last updated: November 5, 2026
+Last updated: November 11, 2026
 
 This policy covers DispMiniSender, DispMiniReceiver, and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
 
@@ -10,7 +10,7 @@ This policy covers DispMiniSender, DispMiniReceiver, and the DispMini website. D
 - The only data sent to a DispMini server comes from update checks: app version, macOS version, Mac model, and language.
 - We also store the approximate location (country, region, and city) that Cloudflare derives from your IP address.
 - We don't store your IP address, and we don't sell your data.
-- To maximize performance and eliminate latency on a direct cable link, DispMini does not add application-level encryption to the stream. Over Wi-Fi, it relies on your network's encryption (WPA2/WPA3), so use a direct cable or a trusted private network.
+- The picture and sound between your Macs aren't encrypted. After the two Macs pair, keyboard and mouse input goes over an encrypted connection. Over Wi-Fi, use a trusted private network.
 
 ## Between your two Macs
 
@@ -18,7 +18,7 @@ DispMini sends the picture and audio directly from the Sender to the Receiver. I
 
 The Receiver also shares its Mac model, app version, macOS version, and language with the Sender. It announces these on your local network so the Sender can find it.
 
-DispMini is designed for a direct Thunderbolt or USB4 cable between your two Macs. To maximize streaming performance and eliminate latency on that point-to-point link, DispMini does not add application-level encryption or authentication to the stream. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. While Wi-Fi provides link-layer encryption (such as WPA2/WPA3), others on the same local network may be able to see or interfere with the stream, including shared keyboard input. We recommend using a direct cable or a trusted private network rather than public or shared Wi-Fi.
+DispMini is designed for a direct Thunderbolt or USB4 cable between your two Macs. The first time two Macs connect, they pair. After that, the Sender only creates its display for a Receiver it has paired with, and keyboard and mouse input goes over an encrypted connection. The pairing keys are created and kept on your two Macs and aren't sent to any server. To keep latency low, the picture and sound aren't encrypted. While **Allow older Macs that can't pair** is on in the Receiver's settings (it's on by default), a Mac on an older version can still connect without pairing, and its keyboard and mouse input isn't encrypted. By default, it only connects automatically over a cable. It uses Wi-Fi only if you connect by hand or set **Auto-connect** to **Thunderbolt or Wi-Fi** in the Sender's settings. While Wi-Fi provides link-layer encryption (such as WPA2/WPA3), others on the same local network may be able to see or interfere with the picture and sound. We recommend using a direct cable or a trusted private network rather than public or shared Wi-Fi.
 
 ## Update checks
 
