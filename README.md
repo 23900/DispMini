@@ -11,11 +11,11 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/23900/DispMini?style=flat-square&label=Latest%20Release&color=e9a765)](https://github.com/23900/DispMini/releases)
 [![Platform](https://img.shields.io/badge/Sender-macOS%2014%2B%20(Apple%20Silicon)-000000?style=flat-square&logo=apple)](https://dispmini.app/#specs)
-[![Receiver](https://img.shields.io/badge/Receiver-macOS%2013%2B%20(iMac%202017%2B)-6fb6e6?style=flat-square&logo=apple)](https://dispmini.app/imac-as-monitor)
+[![Display](https://img.shields.io/badge/Display-macOS%2013%2B%20(iMac%202017%2B)-6fb6e6?style=flat-square&logo=apple)](https://dispmini.app/imac-as-monitor)
 [![License](https://img.shields.io/badge/Personal%20%26%20Edu-Free-2ea44f?style=flat-square)](LICENSE.md)
 [![GitHub Stars](https://img.shields.io/github/stars/23900/DispMini?style=flat-square&logo=github)](https://github.com/23900/DispMini/stargazers)
 
-**[⬇️ Download Sender](https://dispmini.app/download/sender)** · **[⬇️ Download Receiver](https://dispmini.app/download/receiver)** · **[All Releases](https://github.com/23900/DispMini/releases)**<br/>
+**[⬇️ Download Sender](https://dispmini.app/download/sender)** · **[⬇️ Download Display](https://dispmini.app/download/receiver)** · **[All Releases](https://github.com/23900/DispMini/releases)**<br/>
 **[Setup Guide](https://dispmini.app/setup-guide)** · **[FAQ](docs/faq.md)** · **[Troubleshooting](https://dispmini.app/troubleshooting)** · **[Website](https://dispmini.app)** · **[❤️ Sponsor](https://buymeacoffee.com/dispmini)**
 
 </div>
@@ -52,21 +52,21 @@
 - **Headless Mac mini friendly (no HDMI dummy plug):** After initial setup, your Mac mini needs no monitor attached. Includes built-in helpers to [unlock FileVault over the Thunderbolt cable](https://dispmini.app/login-after-restart#if-filevault-is-on) and [log in with Screen Sharing](https://dispmini.app/login-after-restart) after a restart.
 - **One keyboard & mouse for both:** Optionally drive the Mac mini with the iMac's own keyboard, mouse, or trackpad.
 - **Sound through the iMac:** Audio travels with the picture (`Transmit audio` is on by default), playing through the iMac's built-in speakers.
-- **Switch back anytime:** DispMini lives on its own desktop Space on the iMac — swipe or press `Ctrl+Option+Esc` to return to the iMac's own desktop whenever you like.
+- **Switch back anytime:** DispMini lives on its own desktop Space on the iMac — swipe or press `Ctrl+←` / `Ctrl+→` to return to the iMac's own desktop whenever you like, or press `Ctrl+Option+Esc` to exit fullscreen.
 
 ## Screenshots & Interface
 
 ### 1. Menu Bar & Sender Settings (Mac mini / MacBook / Mac Studio)
 
-**DispMiniSender** lives quietly in the menu bar. Each paired receiver shows a live connection dot — **green** means it's on the Thunderbolt cable and fully tuned (`Aim for green`), **yellow** means on the cable, and **red** means over Wi-Fi.
+**DispMiniSender** lives quietly in the menu bar. Each paired display shows a live connection dot — **green** means it's on the Thunderbolt cable and fully tuned (`Aim for green`), **yellow** means on the cable, and **red** means over Wi-Fi.
 
 <p align="center">
   <img src="assets/screenshots/sender-settings.webp" width="840" style="max-width: 100%; height: auto;" alt="DispMiniSender menu bar popover and settings window on macOS" />
 </p>
 
-### 2. Receiver Settings & Headless Reboot Recovery (iMac)
+### 2. Display Settings & Headless Reboot Recovery (iMac)
 
-**DispMiniReceiver** listens automatically on launch, exits and re-enters fullscreen when your sender Mac sleeps or wakes, forwards your iMac's mouse and keyboard, and provides one-click actions to unlock a FileVault disk or open Screen Sharing login after your Mac mini restarts.
+**DispMiniReceiver** listens automatically on launch, can leave fullscreen while your sender Mac sleeps and return when it wakes, forwards your iMac's mouse and keyboard, and provides one-click actions to unlock a FileVault disk or open Screen Sharing login after your Mac mini restarts.
 
 <p align="center">
   <img src="assets/screenshots/receiver-settings.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMiniReceiver waiting screen with FileVault unlock and settings panel on iMac" />
@@ -87,7 +87,7 @@ The **21.5" iMac 4K (2017)** and **27" iMac 5K (2017)** are tested on real hardw
 
 1. **Wire the two Macs together:** Run a Thunderbolt 3/4 or USB4 cable straight between them. (On an M4 / M4 Pro Mac mini or Max-chip Mac Studio, use the rear Thunderbolt ports.)
 2. **Install both apps:** [DispMiniSender](https://dispmini.app/download/sender) on the Mac mini/MacBook, [DispMiniReceiver](https://dispmini.app/download/receiver) on the iMac.
-3. **Approve once, start at login:** Allow Screen Recording and Local Network (plus Accessibility on the Mac mini if sharing keyboard & mouse). Set both apps to start at login, and they connect automatically whenever the cable is plugged in.
+3. **Approve once, start at login:** Allow Screen Recording, and Local Network on macOS 15 or later (plus Accessibility on the Mac mini if sharing keyboard & mouse). Set both apps to start at login, and they connect automatically whenever the cable is plugged in.
 
 ### Helpful Guides
 

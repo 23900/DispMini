@@ -40,7 +40,7 @@ Those are designed for occasional use and may scale or heavily compress the pict
 
 ## Can I control the Mac mini with the iMac's keyboard and mouse?
 
-Yes. Turn this on in DispMiniReceiver's settings and allow Accessibility access on the Mac mini. It's off by default.
+Yes. Turn this on in DispMini's settings on the iMac and allow Accessibility access on the Mac mini. It's off by default.
 
 ## Can I still use the iMac as a computer?
 
@@ -48,7 +48,7 @@ Yes. The DispMini picture is on its own desktop, so you can [swipe or use a keyb
 
 ## Does it play sound through the iMac?
 
-Yes. Turn on **Transmit audio** in the Sender's settings.
+Yes. **Transmit audio** is on by default in the Sender's settings, so your Mac mini's sound plays through the iMac's speakers.
 
 ## Does my Mac mini need its own monitor?
 
