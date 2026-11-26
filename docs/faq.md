@@ -10,7 +10,7 @@ It does the same job in a different way. Apple's Target Display Mode isn't avail
 
 ## Which iMacs work with DispMini?
 
-iMacs from 2017 or later running macOS 13 or later. The 21.5-inch iMac 4K (2017) and 27-inch iMac 5K (2017) have been tested on real hardware.
+iMacs from 2017 or later running macOS 13 or later. The 21.5-inch iMac 4K (2017), 27-inch iMac 5K (2017), and 27-inch iMac 5K (2020) have been tested on real hardware.
 
 iMacs from before 2017 aren't supported.
 

@@ -27,9 +27,9 @@
 > ⭐ **Put that screen back to work!** A perfectly good 4K or 5K Retina panel sitting idle is a waste worth fixing. If DispMini saves your iMac from retirement, please **[give this repo a Star ⭐](https://github.com/23900/DispMini)** so more Mac owners can find it!
 
 <p align="center">
-  <img src="assets/screenshots/receiver-connected-5k.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMiniReceiver streaming native 5120x2880 5K hardware-decoded video on a 27-inch iMac 5K" />
+  <img src="assets/screenshots/receiver-connected-5k.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMini streaming native 5120x2880 5K hardware-decoded video on a 27-inch iMac 5K" />
   <br />
-  <sub><b>DispMiniReceiver on a 27" iMac 5K (2017):</b> Generating a pixel-accurate <code>5120×2880</code> picture with hardware decoding over Thunderbolt (enters fullscreen automatically once the picture arrives).</sub>
+  <sub><b>DispMini on a 27" iMac 5K (2017):</b> Generating a pixel-accurate <code>5120×2880</code> picture with hardware decoding over Thunderbolt (enters fullscreen automatically once the picture arrives).</sub>
 </p>
 
 ## Two Gaps That Complete Each Other
@@ -50,26 +50,28 @@
 - **Extended, main display, or mirrored:** Use the iMac as an extended second display beside a MacBook's own screen, make it the primary display for a Mac mini, or mirror.
 - **Reconnects on its own:** Once both apps start at login, they find each other and reconnect automatically over Thunderbolt — no one needs to babysit the Mac mini.
 - **Headless Mac mini friendly (no HDMI dummy plug):** After initial setup, your Mac mini needs no monitor attached. Includes built-in helpers to [unlock FileVault over the Thunderbolt cable](https://dispmini.app/login-after-restart#if-filevault-is-on) and [log in with Screen Sharing](https://dispmini.app/login-after-restart) after a restart.
-- **One keyboard & mouse for both:** Optionally drive the Mac mini with the iMac's own keyboard, mouse, or trackpad.
+- **One keyboard & mouse for both:** Optionally drive the Mac mini with the iMac's own keyboard, mouse, or trackpad, with `Ctrl+Option` shortcuts for the Mac mini's desktops, Mission Control, and Spotlight.
+- **Several Macs, one iMac:** Pair more than one Mac and choose which one to show from the iMac's waiting screen or settings.
 - **Sound through the iMac:** Audio travels with the picture (`Transmit audio` is on by default), playing through the iMac's built-in speakers.
 - **Switch back anytime:** DispMini lives on its own desktop Space on the iMac — swipe or press `Ctrl+←` / `Ctrl+→` to return to the iMac's own desktop whenever you like, or press `Ctrl+Option+Esc` to exit fullscreen.
+- **One-click updates:** Both apps tell you when a new version is out and install it with **Install and Relaunch**.
 
 ## Screenshots & Interface
 
 ### 1. Menu Bar & Sender Settings (Mac mini / MacBook / Mac Studio)
 
-**DispMiniSender** lives quietly in the menu bar. Each paired display shows a live connection dot — **green** means it's on the Thunderbolt cable and fully tuned (`Aim for green`), **yellow** means on the cable, and **red** means over Wi-Fi.
+**DispMiniSender** lives quietly in the menu bar. Each paired display shows a live connection dot — **green** means it's on the Thunderbolt cable and fully tuned (`Aim for green`), **yellow** means on the cable, and **red** means over Wi-Fi. A lock means the display is paired.
 
 <p align="center">
-  <img src="assets/screenshots/sender-settings.webp" width="840" style="max-width: 100%; height: auto;" alt="DispMiniSender menu bar popover and settings window on macOS" />
+  <img src="assets/screenshots/sender-settings.webp" width="840" style="max-width: 100%; height: auto;" alt="DispMiniSender menu bar panel with three paired displays and a yellow Thunderbolt connection, next to its Settings window with display arrangement, resolution, Known Displays and permissions" />
 </p>
 
-### 2. Display Settings & Headless Reboot Recovery (iMac)
+### 2. Display Window & Settings (iMac)
 
-**DispMiniReceiver** listens automatically on launch, can leave fullscreen while your sender Mac sleeps and return when it wakes, forwards your iMac's mouse and keyboard, and provides one-click actions to unlock a FileVault disk or open Screen Sharing login after your Mac mini restarts.
+**DispMini** on the iMac listens automatically on launch and shows which Mac is connected. In its settings you manage your paired Macs and choose which one to show, turn on keyboard and mouse control, and choose whether to leave fullscreen while the Mac mini sleeps. Picture quality is set automatically. After the Mac mini restarts, the waiting screen offers one-click buttons to unlock its FileVault disk and log in with Screen Sharing.
 
 <p align="center">
-  <img src="assets/screenshots/receiver-settings.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMiniReceiver waiting screen with FileVault unlock and settings panel on iMac" />
+  <img src="assets/screenshots/receiver-settings.webp" width="880" style="max-width: 100%; height: auto;" alt="DispMini window on a 27-inch iMac 5K showing M2Air connected, next to its Settings with Paired Macs, keyboard and mouse control, Pointer Style and Picture Quality set to Automatic" />
 </p>
 
 ## Requirements
@@ -77,17 +79,17 @@
 | App | Install on | Requirements |
 |---|---|---|
 | **DispMiniSender** | **Apple silicon** (M-series) Mac mini, MacBook, or Mac Studio *(Intel senders not supported)* | **macOS 14** or newer |
-| **DispMiniReceiver** | **iMac from 2017 or later** (including 2019 & 2020 models) | **macOS 13** or newer |
+| **DispMini** *(download: DispMiniReceiver)* | **iMac from 2017 or later** (including 2019 & 2020 models) | **macOS 13** or newer |
 
 Plus **one cable**: a **Thunderbolt 3 / 4 or USB4 data cable** directly between the two Macs (a plain USB-C charging cable looks identical but carries no data). Manual Wi-Fi connection is also available as a fallback.
 
-The **21.5" iMac 4K (2017)** and **27" iMac 5K (2017)** are tested on real hardware — see [which iMac models work](https://dispmini.app/imac-as-monitor).
+The **21.5" iMac 4K (2017)**, **27" iMac 5K (2017)**, and **27" iMac 5K (2020)** are tested on real hardware — see [which iMac models work](https://dispmini.app/imac-as-monitor).
 
 ## How It Works (3 Steps)
 
 1. **Wire the two Macs together:** Run a Thunderbolt 3/4 or USB4 cable straight between them. (On an M4 / M4 Pro Mac mini or Max-chip Mac Studio, use the rear Thunderbolt ports.)
-2. **Install both apps:** [DispMiniSender](https://dispmini.app/download/sender) on the Mac mini/MacBook, [DispMiniReceiver](https://dispmini.app/download/receiver) on the iMac.
-3. **Approve once, start at login:** Allow Screen Recording, and Local Network on macOS 15 or later (plus Accessibility on the Mac mini if sharing keyboard & mouse). Set both apps to start at login, and they connect automatically whenever the cable is plugged in.
+2. **Install both apps:** [DispMiniSender](https://dispmini.app/download/sender) on the Mac mini/MacBook, [DispMini](https://dispmini.app/download/receiver) on the iMac (its download is called DispMiniReceiver).
+3. **Pair and approve once, start at login:** The first time the Macs connect over the cable, click **Allow** on the iMac to pair them. Allow Screen Recording, and Local Network on macOS 15 or later (plus Accessibility on the Mac mini if sharing keyboard & mouse). Set both apps to start at login, and they connect automatically whenever the cable is plugged in.
 
 ### Helpful Guides
 
@@ -103,7 +105,7 @@ All video, audio, and input data streams directly peer-to-peer between your two 
 
 The two Macs pair once, and keyboard and mouse input then goes over an encrypted connection. To keep latency low, the picture and sound aren't encrypted, so use the direct Thunderbolt/USB4 cable it is built for, or a trusted private home/office network—not public or shared Wi-Fi.
 
-Update checks send basic device info and anonymous region metadata to verify latest versions. See the [Privacy Policy](PRIVACY.md).
+Update checks send basic details such as the app version, macOS version, and Mac model, with no identifier for you or your Mac. See the [Privacy Policy](PRIVACY.md) for the full list, including approximate location.
 
 ## Support & License
 

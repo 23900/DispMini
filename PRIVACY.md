@@ -1,15 +1,13 @@
 # DispMini Privacy Policy
 
-Last updated: November 13, 2026
+Last updated: November 26, 2026
 
 This policy covers DispMiniSender, DispMini on the Mac you use as a display (DispMiniReceiver), and the DispMini website. DispMini is run by James (GitHub: @23900) from New Zealand.
 
 ## Summary
 
-- Your picture, audio, keyboard, and mouse input aren't sent to any DispMini server.
-- The only data sent to a DispMini server comes from update checks: app version, macOS version, Mac model, and language.
-- We also store the approximate location (country, region, and city) that Cloudflare derives from your IP address.
-- We don't store your IP address, and we don't sell your data.
+- Your picture, audio, keyboard, and mouse input stay between your two Macs and aren't sent to any DispMini server.
+- Update checks send basic details, such as the app version, macOS version, and Mac model, with no identifier for you or your Mac, so we can't tell who a check came from. We don't sell this data. See [Update checks](#update-checks) for the full list, including approximate location.
 - The picture and sound between your Macs aren't encrypted. After the two Macs pair, keyboard and mouse input goes over an encrypted connection. Over Wi-Fi, use a trusted private network.
 
 ## Between your two Macs
@@ -22,24 +20,19 @@ DispMini is designed for a direct Thunderbolt or USB4 cable between your two Mac
 
 ## Update checks
 
-After connecting, DispMiniSender checks for updates at most once a day. You can also check by hand in its settings.
+DispMini's apps check for updates by themselves at most once a day, and you can also check by hand in each app's **About** tab. A check can send:
 
-Each check sends:
-
-| Data | Mac |
-|---|---|
-| App version, including whether it's a release candidate or a development build | Sender and display |
-| macOS version | Sender and display |
-| Mac model | Sender and display |
-| Language | Sender and display |
+- The app and its version, including whether it's a release candidate or a development build
+- macOS version
+- Mac model
+- Language
+- Whether the app is paired with or connected to another Mac, and the same details for the Mac it's connected to
 
 We use this data to choose which update information to show you, plan compatibility work, and count usage.
 
-We store these details with each check, along with the date and time, except the display's language. Cloudflare also tells us the approximate location it derives from your IP address (country, region, and city), and we store that too. We don't store the IP address itself or add any identifier for you or your Mac.
+We store these details with each check, along with the date and time. Cloudflare also tells us the approximate location it derives from your IP address (country, region, and city), and we store that too. We don't store the IP address itself or add any identifier for you or your Mac.
 
-To stop automatic checks, turn them off in the Sender's settings.
-
-DispMini on the display also checks for updates on its own when it opens and at most once a day after that. You can also check by hand in its settings. These checks send only its app version, including whether it's a release candidate or a development build, and we don't store them. To stop them, turn them off in its settings.
+To stop automatic checks, turn them off in each app's **About** tab.
 
 ## How long we keep data
 
